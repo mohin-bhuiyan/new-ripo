@@ -1,0 +1,160 @@
+
+
+
+
+
+/*--hero-section--*/
+.hero-section{
+    margin-top:0px;
+     background-image: url(main-image/coffee-5817390_1920.jpg);
+     background-size:100% auto;
+     background-position:0px -250px;
+     background-repeat: no-repeat;
+     width:100%;
+     height:35vw;
+     padding:0px;
+     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+        overflow:hidden;
+  
+
+}
+
+/*
+.hero-section .img{
+    width:60%;
+    height:100%;
+    margin-left:-10vw;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .img img{
+    width:100%;
+    height:auto;
+}
+*/
+
+
+.hero-wrapper{
+   background-color: #000000a6;
+    max-width:50%;
+    height:100%;
+    padding:12px;
+    display:flex;
+     flex-direction: column;
+     justify-content: center;
+     gap:13px;
+     z-index: 2;
+}
+
+.hero-section h1{
+    color:#ffde73;
+    font-size: 50px;
+    font-weight: 100;
+   font-family: 'popins';
+}
+
+.hero-section p{
+    color:#ffe2e2;
+    font-size: 19px;
+    word-spacing:3px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+/*--specialties-section--*/
+.specialties{
+   text-align: center;
+   padding:30px 20px;
+   margin:0 12px;
+   color:white;
+   margin-top:70px;
+   border-radius: 13px;
+}
+
+.specialties h2{
+    padding:12px;
+    font-size: 34px;
+    color:#6B4226;
+}
+
+/*,,SP-CONTAINAR/...*/
+.specialties .sp-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    padding:42px 0PX;
+   
+}
+
+
+/*-<<.card>>*/
+.specialties .sp-container .cards{
+    width:30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transform-style: preserve-3d;
+  transform:perspective(1000px)
+}
+
+.specialties .sp-container .cards:hover .img{
+    transform:rotateX(360deg) ;
+    transition: 1s;
+}
+
+.sp-container .cards .img{
+    width:250px;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 8px 8px 5px rgb(78, 77, 77);
+}
+.sp-container .cards .img img{
+    height:100%;
+}
+
+.sp-container .cards h3{
+    font-size: 24px;
+    font-weight:bold;
+    margin:10px 0;
+    color:#6d5443;
+}
+.sp-container .cards p{
+    font-size: 15px;
+    color:#333333;
+}
+
+
+
+.specialties > h3{
+    margin-top:22px;
+    margin-inline:auto;
+    padding:32px;
+    width:60%;
+    color:#f5f8ff;
+    font-size:22px;
+    font-weight:900;
+    background-color: #3A2C2C;;
+    border-radius:11px;
+}
+.specialties h3 a{
+    color:#9cbaff;
+}
+
+

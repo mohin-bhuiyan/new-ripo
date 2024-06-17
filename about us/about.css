@@ -1,0 +1,148 @@
+.hero-section{
+    height:100vh;
+    width:100%;
+    background-image: url(../main-image/pexels-emrecan-2079438.jpg);
+    background-size: 100%;
+    background-position-y:center;
+    
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .card{
+    background-color: rgba(0, 0, 0, 0.594);
+    padding:32px;
+    border-radius: 35px;
+    
+}
+
+
+.hero-section .card h1{
+    font-size: 54px;
+    color:#ffde73;
+    font-family:'popins';
+
+}
+
+.hero-section .card h2{
+    color:#ffe2e2;
+    text-align: left;
+    font-size: 18px;
+    padding:0px 33px;
+}
+
+
+
+
+/*main section*/
+.our-story{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:33px;
+    margin:55px 0;
+    width:97%;
+    background-color:#F5F5DC;
+    padding: 113px 48px;
+}
+
+
+.our-story h1{
+    font-size: 44px;
+    color:#6B4226;
+}
+.our-story p{
+    width:80%;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*--team section_*/
+
+.team-section{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    gap:44px;
+    padding:33px;
+    background-color: #3A2C2C;
+    color:white;
+}
+.team-section h2{
+    font-size:44px;
+   
+    border-bottom:1px solid white;
+    padding-bottom:42px;
+    width:100%;
+    color:#f7eed3;
+}
+
+.tm-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    padding:53px;
+    border-bottom:1px solid white;
+    border-radius: 33px;
+    background-color: #f7eed3;
+}
+
+.tm-card img{
+    width:20%;
+    order: 1;
+    border-radius:33px;
+}
+
+
+.tm-card .detail{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:14px;
+    justify-content: center;
+    order:1;
+    width:70%;
+    color:black;
+}
+.tm-card .detail h3{
+    font-size: 29px;
+    font-weight: 900;
+    color:#6B4226;
+}
+
+.tm-card .detail h4{
+    font-size: 13px;
+}
+
+.tm-card .detail p{
+    width:90%;
+}
+
+
+/*--our valus section--*/
+.values{
+    padding:22px;
+    background-color: green;
+    margin-top:44px;
+    padding: 113px 48px;
+    background-color:#F5F5DC;
+}
+
+.values h2{
+    text-align:center;
+    margin-bottom:44px;
+    font-size: 44px;
+    color:#6B4226;
+}
+
+.values p{
+    padding:4px;
+    font-size: 16px;
+}

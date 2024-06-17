@@ -1,0 +1,240 @@
+
+.hero-section{
+    width:100%;
+    height:90vh;
+    background-image: url(img/StockSnap_KJADY7BD18.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:9%;
+}
+
+.hero-section .card{
+    text-align:center;
+    padding:22px;
+    border-radius: 12px;
+}
+
+.hero-section .card h1{
+    font-size: 90px;
+    font-family: 'popins';
+    margin-bottom:12px;
+    color:#ffde73;
+}
+.hero-section .card h2{
+    font-size: 30px;
+    color:#ffe2e2;
+}
+
+
+/*--.menu-sectiond-- */
+.menu-section{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    margin-top:44px;
+    gap:20px;
+    flex-wrap:nowrap;
+}
+
+/*<<card>>*/
+.menu-section .card{
+    width:100%;height:fit-content;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+   background-color:#3A2C2C; /*#672b2b9b;*/
+    padding:20px;
+    gap:42px;
+    border-radius: 33px;
+    
+}
+.menu-section .card h2{
+ font-size: 29px;
+ color:white;
+}
+
+.menu-section .card .img{
+    width:180px;
+    height:120px;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+    border-radius: 35px;
+    border:2px solid white;
+}
+.menu-section .card .img img{
+    width:100%;
+    margin-bottom: 20px;
+    object-fit:cover;
+}
+
+.menu-section .card .option{
+    font-size:18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 3px;
+    gap:25px;
+    padding:25px;
+    background-color:#F5F5DC;
+    color:black;
+    width:100%;
+ 
+}
+.menu-section .card .option h4{
+    font-size: 25px;
+    color:#6B4226;
+}
+.menu-section .card .option h5{
+    font-size: 12px;
+    color:#333333;
+}
+.menu-section .card .option h6{
+    font-size: 24px;
+    padding:0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0px;
+    width:100%;
+    
+}
+.menu-section .card .option h6 a{
+    text-decoration: none;
+    color:white;
+    background-color: #FF6F61;
+    font-size: 15px;
+    padding:5px;
+    border-radius:3px 10px ;
+    border:2px solid #C29A76;
+    transition:0.2s;
+}
+.menu-section .card .option h6 a:hover{
+    background-color: white;
+    color:#E65C50;
+}
+
+
+@media all and (max-width:1165px) and (min-width:800px){
+    .menu-section{
+      
+       
+        margin-top:44px;
+        gap:15px;
+        flex-wrap:nowrap;
+    }
+
+    .menu-section .card{
+        
+        padding:15px;
+        gap:22px;
+        border-radius: 25px;
+        
+    }
+
+
+    .menu-section .card h2{
+        font-size: 24px;
+        color:white;
+       }
+       
+       .menu-section .card .img{
+           width:160px; /*160px;*/
+           height:110px;
+           border-radius: 25px;
+       }
+       
+       .menu-section .card .option{
+        gap:15px;
+        padding:15px;
+     
+    }
+
+    .menu-section .card .option h4{
+        font-size: 20px;
+    }
+    .menu-section .card .option h5{
+        font-size: 9px;
+    }
+    .menu-section .card .option h6{
+        font-size: 19px;
+        width:100%;
+        
+    }
+
+
+
+    .menu-section .card .option h6 a{
+        font-size: 12px;
+        padding:4px;
+        border-radius:2px 8px ;
+        border:2px solid #C29A76;
+        transition:0.2s;
+    }
+    .menu-section .card .option h6 a:hover{
+        background-color: white;
+        color:#E65C50;
+    }
+
+}
+
+
+
+@media all and (max-width:800px){
+
+    .hero-section .card h1{
+        font-size: 50px;
+        margin-bottom:12px;
+        color:#ffde73;
+    }
+    .hero-section .card h2{
+        font-size: 10px;
+        color:#ffe2e2;
+    }
+
+
+
+
+
+
+    .menu-section{
+        flex-direction: column;
+        align-items: center;
+        gap:65px;
+    }
+
+    .menu-section .card{
+        width:95%;
+        padding:20px;
+        gap:12px;
+        border-radius: 23px;
+        
+    }
+    .menu-section .card h2{
+     font-size: 35px;
+    }
+    
+    
+
+    .menu-section .card .option h6{
+        font-size: 24px;
+        width:70%;
+        
+    }
+
+
+    .menu-section .card .option h6 a{
+        text-decoration: none;
+        font-size: 15px;
+        padding:5px;
+        border-radius:3px 8px ;
+        border:1px solid #C29A76;
+        transition:0.2s;
+    }
+}
